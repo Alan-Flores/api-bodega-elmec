@@ -26,7 +26,7 @@ class ProductController extends Controller
         $product->sale = $request->sale;
         $product->brand = $request->brand;
         $product->group_id = $request->group_id;
-        $product->state = $request->state;
+        //$product->state = $request->state;
 
         $product->save();
     }
@@ -49,7 +49,7 @@ class ProductController extends Controller
         $product->sale = $request->sale;
         $product->brand = $request->brand;
         $product->group_id = $request->group_id;
-        $product->state = $request->state;
+        //$product->state = $request->state;
 
         $product->save();
         return $product;
